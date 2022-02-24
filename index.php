@@ -20,16 +20,6 @@ if (isset($_CountryCode_) && $_CountryCode_ == "FR") { //if client is in French 
 }
 
 // var_dump($_POST); //for debug
-if (isset($_POST['action']) && !empty($_POST['action'])) {
-    if (file_exists('controller/' . $_POST['action'] . '.php')) {
-        require('controller/' . $_POST['action'] . '.php');
-    } else {
-        echo'Not an action';
-    }
-} elseif (isset($_GET['page']) && $_GET['page'] == 'maintenance') {
-    include('settings/maintenance.php');
-} else {
-    include('public/index.php');
-}
+include('public/index.php');
 
 ob_end_flush();
