@@ -14,12 +14,12 @@
     if(isset($_SESSION['phantomAccount']) && !empty($_SESSION['phantomAccount'])) {
         echo'<button onclick="disconnect()">';t("Log out");echo'</button>'; //show log out button if connected
     }else{
-        echo'<button onclick="connect()">';t("Log in with Phantom");echo'</button>'; //else show log in button
+        echo'<button onclick="connect()">';t("Login with Phantom");echo'</button>'; //else show login button
     }
 ?>
 <div id="noPhantomContent" class="noPhantomContent" onclick="closeNoPhantomContent()">
     <div class="noPhantom">
-        <h3><?php t("You need to download Phantom to log in : ")?></h3>
+        <h3><?php t("You need to download Phantom to login : ")?></h3>
         <a href="https://phantom.app/" target="_blank"><?php t("https://phantom.app/")?></a>
     </div>
 </div>

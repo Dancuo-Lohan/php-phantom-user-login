@@ -5,13 +5,13 @@ function t($string)
         case 'error 404, page not found':
             echo "Erreur 404, page non trouvée";
             break;
-        case 'Log in with Phantom':
+        case 'Login with Phantom':
             echo "Connectez-vous avec Phantom";
             break;
         case 'Log out':
             echo "Se déconnecter";
             break;
-        case 'You need to download Phantom to log in : ':
+        case 'You need to download Phantom to login : ':
             echo "Vous avez besoin de télécharger Phantom pour vous connecter : ";
             break;
         case 'Auth with your Phantom wallet':
