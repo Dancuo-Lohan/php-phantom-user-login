@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+
+RewriteRule public/index.php index.php [L]
+RewriteRule ^error index.php?page=error [L]
+
+ErrorDocument 404 /index.php?page=error
