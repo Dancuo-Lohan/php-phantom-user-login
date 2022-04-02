@@ -1,5 +1,5 @@
 # A login system in PHP/JS for Phantom wallet (Solana)
-See a demo on : https://estrimon.com/phantom-wallet/index.php
+See a demo on : https://estrimon.com/phantom-wallet/
 <br><br>
 The login check if the user have the Phantom wallet extension, if the user have this extension he can login with it. Else if the user don't have it, a popup appears like "Hey, you don't have the extension, download it on ..." (You can try it with an incognito window if you have the extension)
 
